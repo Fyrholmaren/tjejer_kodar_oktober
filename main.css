@@ -1,0 +1,9 @@
+h1{
+	font: garamond;
+	font-size: 40px;
+	color: #8099b3;
+
+  .middle-container {
+    display: inline-flex;
+    flex-direction: column-reverse;
+  }
