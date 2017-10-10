@@ -2,8 +2,33 @@ h1{
 	font: garamond;
 	font-size: 40px;
 	color: #8099b3;
-
-  .middle-container {
-    display: inline-flex;
-    flex-direction: column-reverse;
+}
+body{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+<.inner-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  order: 2;
+  justify-content: center;
   }
+html{
+  background-color: #FEFFEA;
+}
+input{
+  font: times
+}
+button{
+  margin-top: 20px;
+  font-family: monospace;
+}
+footer{
+  margin-top: 15px;
+}
+button {border-radius: 50%;}
