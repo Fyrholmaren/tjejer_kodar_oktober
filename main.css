@@ -2,7 +2,6 @@ h1{
 	font: garamond;
 	font-size: 40px;
 	color: #8099b3;
-<<<<<<< HEAD
 }
 body{
   display:flex;
@@ -33,10 +32,3 @@ footer{
   margin-top: 15px;
 }
 button {border-radius: 50%;}
-=======
-
-  .middle-container {
-    display: inline-flex;
-    flex-direction: column-reverse;
-  }
->>>>>>> 74794b4ad5715727e17abeeba97611ada2971397
