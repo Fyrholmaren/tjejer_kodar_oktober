@@ -32,9 +32,3 @@ footer{
   margin-top: 15px;
 }
 button {border-radius: 50%;}
-
-
-  .middle-container {
-    display: inline-flex;
-    flex-direction: column-reverse;
-  }
