@@ -10,13 +10,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-.input{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  }
+
 html{
   background-color: #FEFFEA;
 }
@@ -26,9 +20,10 @@ html{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	color: #8099b3;
 }
 .inputs{
-  font: times
+  font: arial;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap-reverse;
@@ -43,6 +38,15 @@ footer{
   margin-top: 15px;
 }
 .inputSection{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	justify-content: center;
+	font-family: cursive;
+	color: blue;
+}
+.resultSection{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap-reverse;
