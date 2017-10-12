@@ -10,19 +10,30 @@ body{
   justify-content: center;
   align-items: center;
 }
-<.inner-container{
+.input{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
-  order: 2;
+  align-items: center;
   justify-content: center;
   }
 html{
   background-color: #FEFFEA;
 }
-input{
+.button{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.inputs{
   font: times
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	justify-content: center;
 }
 button{
   margin-top: 20px;
@@ -31,4 +42,10 @@ button{
 footer{
   margin-top: 15px;
 }
-button {border-radius: 50%;}
+.inputSection{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	justify-content: center;
+}

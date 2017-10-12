@@ -7,25 +7,35 @@
     <title>Hjälp mig välja</title>
   </head>
   <body>
-        <div>
-          <h1> Hjälp mig välja frukost till imorgonbitti...</h1>
-        </div>
-        <div>
-          <input placeholder="Skriv frukostförslag här"></input>
-        </div>
-        <div>
-          <button>Lägg till</button>
-        </div>
-        <div>
-          <button>Välj!</button>
-        </div>
-        <div>
-          <h2> Mejla mig mitt frukostförslag!<h2>
-        </div>
-        <div>
-          E-mail: <input type="email" name="usremail">
-        </div>
+    <h1> Hjälp mig välja frukost till imorgonbitti...</h1>
+    <div class="inputSection">
+      <div class="inputs">
+        <input placeholder="Skriv frukostförslag här"></input>
+      </div>
+      <button class="addOption">Lägg till</button>
+      </div>
+      <div class="resultSection"></div>
+      <button>Välj!</button>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(function() {
+          $('.resultSection').hide()
+
+          var add_option = function() {
+          $('.inputs').append('<input></input>')
+          }
+            $('.addOption').click(add_option)
+        })
+    </script>
+    <div>
+      <h2> Mejla mig mitt frukostförslag!<h2>
+    </div>
+    <div>
+      E-mail: <input type="email" name="usremail">
+    </div>
   </body>
   <footer>
     <img src="flingor.jpg">
+  </footer>
 </html>
