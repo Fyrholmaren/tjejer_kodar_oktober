@@ -1,6 +1,7 @@
 h1{
 	font: garamond;
 	font-size: 40px;
+	font-weight: bolder;
 	color: #8099b3;
 }
 body{
@@ -10,11 +11,10 @@ body{
   justify-content: center;
   align-items: center;
 }
-
 html{
   background-color: #FEFFEA;
 }
-.button{
+.addOption{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -22,20 +22,29 @@ html{
 	justify-content: center;
 	color: #8099b3;
 }
-.inputs{
-  font: arial;
+.submit{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	color: #8099b3;
+}
+button{
+  margin-top: 20px;
+  font-family: arial;
+}
+footer{
+  margin-top: 15px;
+}
+.resultSection{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap-reverse;
 	align-items: center;
 	justify-content: center;
-}
-button{
-  margin-top: 20px;
-  font-family: monospace;
-}
-footer{
-  margin-top: 15px;
+	font-family: garamond;
+	font-weight: bold;
 }
 .inputSection{
 	display: flex;
@@ -43,10 +52,14 @@ footer{
 	flex-wrap: wrap-reverse;
 	align-items: center;
 	justify-content: center;
-	font-family: cursive;
-	color: blue;
+	font-family: garamond;
+	margin: 50px 0px 80px 0px;
+	width: 400px;
 }
-.resultSection{
+.inputs{
+	width: inherit;
+  font: garamond;
+	font-weight: lighter;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap-reverse;
