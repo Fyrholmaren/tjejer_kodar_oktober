@@ -14,7 +14,9 @@
       </div>
         <button class="addOption">Lägg till</button>
     </div>
-    <div class="resultSection"></div>
+    <div class="resultSection">
+      <p> thddd </p>
+    </div>
     <button class="submit">Välj!</button>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -36,18 +38,22 @@
             })
             var winner = options[Math.floor(Math.random() * options.length)]
           console.log(winner)
-          $('.resultSection').text('Och idag ska du äta:', winner)
+
+            $('.resultSection').text(winner)
+            $('p').before('resultSection');
 
           }
           $('.submit').click(submit)
         })
     </script>
-    <div>
+
+
+    <!--<div>
       <h2> Mejla mig mitt frukostförslag!<h2>
     </div>
     <div>
       E-mail: <input type="email" name="usremail">
-    </div>
+    </div> -->
   </body>
   <footer>
     <img src="flingor.jpg">
